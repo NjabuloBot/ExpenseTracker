@@ -6,8 +6,6 @@ def print_expenses(expenses):
         print(f'Amount: {expense["amount"]}, Category: {expense["category"]}')
 
 def total_expenses(expenses):
-    pass
-
-test = lambda x : x * 2
+    lambda expense : expense['amount']
 
 expenses = []
